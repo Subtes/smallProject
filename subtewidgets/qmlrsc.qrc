@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+<!--        <file>speedgauge.qml</file>-->
+        <file>foot_horn.qml</file>
+<!--        <file>wiperSelector.qml</file>
+        <file>rana.qml</file>-->
+        <file>setaButton.qml</file>
+<!--        <file>single_button.qml</file>
+        <file>speedgaugeLed.qml</file>
+        <file>mode_selector.qml</file>
+        <file>manometer.qml</file>
+        <file>setaTecho.qml</file>
+        <file>llaveTecho.qml</file>
+        <file>atp.qml</file>
+        <file>analog_gauge.qml</file>
+        <file>sicasmac.qml</file>
+        <file>llavetrespuntos.qml</file>
+        <file>alstom_selectorModoConduccion.qml</file>-->
+    </qresource>
+</RCC>

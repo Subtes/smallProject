@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BoardTop</class>
+ <widget class="QMainWindow" name="BoardTop">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1024</width>
+    <height>768</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>BOARD TOP</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/resources/board_top_BKG.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="SingleButton" name="puestaEnMarchaDES" native="true">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>31</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="automaticoManualDES" native="true">
+    <property name="geometry">
+     <rect>
+      <x>168</x>
+      <y>32</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="bateriaDES" native="true">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>254</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="bateriaCON" native="true">
+    <property name="geometry">
+     <rect>
+      <x>327</x>
+      <y>348</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="pantografoDES" native="true">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>254</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="pantografoCON" native="true">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>348</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="compAuxDES" native="true">
+    <property name="geometry">
+     <rect>
+      <x>613</x>
+      <y>254</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="compAuxCON" native="true">
+    <property name="geometry">
+     <rect>
+      <x>613</x>
+      <y>348</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="convertidorDES" native="true">
+    <property name="geometry">
+     <rect>
+      <x>754</x>
+      <y>254</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="convertidorCON" native="true">
+    <property name="geometry">
+     <rect>
+      <x>755</x>
+      <y>348</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="compPpalDES" native="true">
+    <property name="geometry">
+     <rect>
+      <x>895</x>
+      <y>254</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="compPpalCON" native="true">
+    <property name="geometry">
+     <rect>
+      <x>895</x>
+      <y>348</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="alumbradoDES" native="true">
+    <property name="geometry">
+     <rect>
+      <x>463</x>
+      <y>533</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="alumbradoCON" native="true">
+    <property name="geometry">
+     <rect>
+      <x>463</x>
+      <y>627</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="aireDES" native="true">
+    <property name="geometry">
+     <rect>
+      <x>607</x>
+      <y>532</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="aireCON" native="true">
+    <property name="geometry">
+     <rect>
+      <x>606</x>
+      <y>627</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="megaforniaDES" native="true">
+    <property name="geometry">
+     <rect>
+      <x>748</x>
+      <y>532</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="megaforniaCON" native="true">
+    <property name="geometry">
+     <rect>
+      <x>748</x>
+      <y>626</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="frenoDES" native="true">
+    <property name="geometry">
+     <rect>
+      <x>889</x>
+      <y>532</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="frenoCON" native="true">
+    <property name="geometry">
+     <rect>
+      <x>889</x>
+      <y>626</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="emergenciaSICAS" native="true">
+    <property name="geometry">
+     <rect>
+      <x>44</x>
+      <y>576</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="puetaEnMarchaCON" native="true">
+    <property name="geometry">
+     <rect>
+      <x>48</x>
+      <y>374</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="automaticoManualCON" native="true">
+    <property name="geometry">
+     <rect>
+      <x>169</x>
+      <y>375</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="SingleButton" name="llaveManual" native="true">
+    <property name="geometry">
+     <rect>
+      <x>52</x>
+      <y>188</y>
+      <width>78</width>
+      <height>78</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QQuickWidget" name="seta">
+    <property name="geometry">
+     <rect>
+      <x>138</x>
+      <y>159</y>
+      <width>140</width>
+      <height>140</height>
+     </rect>
+    </property>
+    <property name="resizeMode">
+     <enum>QQuickWidget::SizeRootObjectToView</enum>
+    </property>
+    <property name="source">
+     <url>
+      <string>qrc:/setaTecho.qml</string>
+     </url>
+    </property>
+   </widget>
+   <widget class="AnalogGauge" name="effortmeter" native="true">
+    <property name="geometry">
+     <rect>
+      <x>789</x>
+      <y>14</y>
+      <width>212</width>
+      <height>212</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>212</width>
+      <height>212</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="AnalogGauge" name="ammeter" native="true">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>14</y>
+      <width>212</width>
+      <height>212</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>212</width>
+      <height>212</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="AnalogGauge" name="voltmeter" native="true">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>14</y>
+      <width>212</width>
+      <height>212</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>212</width>
+      <height>212</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="LlaveTecho" name="llaveTecho" native="true">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>550</y>
+      <width>100</width>
+      <height>180</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QQuickWidget</class>
+   <extends>QWidget</extends>
+   <header>QtQuickWidgets/QQuickWidget</header>
+  </customwidget>
+  <customwidget>
+   <class>SingleButton</class>
+   <extends>QWidget</extends>
+   <header>singlebutton.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>AnalogGauge</class>
+   <extends>QWidget</extends>
+   <header>analoggauge.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>LlaveTecho</class>
+   <extends>QWidget</extends>
+   <header>llavetecho.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

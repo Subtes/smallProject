@@ -1,0 +1,21 @@
+<!-- CONFIGURACION DE LOS ESTADOS INICIAL DEL TREN PARA ARRANCAR LOS EJERCICIOS-->
+<EJERCICIO>
+	<NIVEL>0</NIVEL>
+	<ESTADO>
+		<splashPassed>			false	</splashPassed>
+		<horn>					false	</horn>
+		<emergencyOverride>		false	</emergencyOverride>
+		<leftDoors>				CLOSE	</leftDoors>
+		<rightDoors>			CLOSE	</rightDoors>
+		<CSCP>					false	</CSCP>
+		<speed>					0		</speed>
+		<targetSpeed>			0		</targetSpeed>
+		<allowedSpeed>			0		</allowedSpeed>
+		<rana>					0		</rana>
+		<traction>				0		</traction>
+		<lastTraction>			0		</lastTraction>
+		<tractionLeverPosition>	0		</tractionLeverPosition>
+		<lastPosition>			0		</lastPosition>
+		<seta>					false	</seta>
+	</ESTADO>
+</EJERCICIO>

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/bocina_down.png</file>
+        <file>resources/bocina_up.png</file>
+        <file>resources/setaOn.png</file>
+        <file>resources/setaOff.png</file>
+    </qresource>
+</RCC>

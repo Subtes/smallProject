@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BoardHardware</class>
+ <widget class="QMainWindow" name="BoardHardware">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1024</width>
+    <height>768</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Hardware CAF6000</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/resources/board_hardware_BKG.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="maximumSize">
+    <size>
+     <width>1024</width>
+     <height>768</height>
+    </size>
+   </property>
+   <widget class="FootHorn" name="horn" native="true">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>560</y>
+      <width>150</width>
+      <height>205</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>150</width>
+      <height>205</height>
+     </size>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::StrongFocus</enum>
+    </property>
+   </widget>
+   <widget class="Seta_Button" name="setaButton" native="true">
+    <property name="geometry">
+     <rect>
+      <x>31</x>
+      <y>212</y>
+      <width>150</width>
+      <height>150</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>150</width>
+      <height>150</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>FootHorn</class>
+   <extends>QWidget</extends>
+   <header>foothorn.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Seta_Button</class>
+   <extends>QWidget</extends>
+   <header>seta_button.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

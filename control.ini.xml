@@ -1,0 +1,10 @@
+<!-- CONFIGURACION INICIAL DE CONTROLES-->
+<SETTING>
+   <serverIp>"192.168.7.119"</serverIp>
+   <serverPort>5000</serverPort>   
+
+   <m_controlsHostName>"c_simulador_1"</m_controlsHostName>   
+   <m_visualHostName>"v_simulador_1"</m_visualHostName>   
+   <m_instructionsHostName>"i_simulador_1"</m_instructionsHostName>
+ 
+</SETTING>
